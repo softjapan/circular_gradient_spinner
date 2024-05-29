@@ -9,7 +9,7 @@ List<Color> generateGradientColors(Color baseColor, {int steps = 8}) {
     // Lerp between the base color and white
     final color = Color.lerp(
       baseColor,
-      Colors.gray,
+      Colors.grey,
       ratio,
     );
 

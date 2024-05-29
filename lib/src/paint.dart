@@ -41,8 +41,8 @@ class ProgressPainter extends CustomPainter {
       steps: gradientSteps,
     );
 
-    double startAngle = 360;
-    double sweepAngle = 0;
+    double startAngle = 0;
+    double sweepAngle = 360;
 
     var rect = Rect.fromCenter(
       center: Offset(centerX, centerY),

@@ -56,7 +56,7 @@ class _CircularGradientSpinnerState extends State<CircularGradientSpinner>
         builder: (_, child) {
           return CustomPaint(
             painter: ProgressPainter(
-              rotationAngle: _controller.value * 360 * -1,
+              rotationAngle: _controller.value * 180,
               progressColor: widget.color,
               strokeWidth: widget.strokeWidth,
               gradientSteps: widget.gradientSteps,
